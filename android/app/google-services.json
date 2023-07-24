@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "44895485205",
+    "project_id": "pen-f60a8",
+    "storage_bucket": "pen-f60a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44895485205:android:e31c16f665f7ae3079fd1c",
+        "android_client_info": {
+          "package_name": "com.example.pen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44895485205-6ju9591no9kb818cdqi2fk2tub8cofkb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwMhRz66DJyg3foBDZgfY9zKn0ou0gqSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44895485205-6ju9591no9kb818cdqi2fk2tub8cofkb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
