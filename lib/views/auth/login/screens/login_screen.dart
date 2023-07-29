@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pen/controller/auth_controller.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -40,7 +41,9 @@ class LoginScreen extends StatelessWidget {
                 horizontal: 10.0,
               ),
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  signInWithGoogle(context);
+                },
                 style: ElevatedButton.styleFrom(
                   elevation: 0,
                   padding: const EdgeInsets.symmetric(
