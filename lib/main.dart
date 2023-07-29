@@ -16,10 +16,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
+      theme: ThemeData.dark().copyWith(
         useMaterial3: true,
+        primaryColor: Colors.white,
+        hintColor: Colors.white,
+        scaffoldBackgroundColor: const Color(0xff070706),
       ),
-      home:  LoginScreen(),
+      home: const LoginScreen(),
     );
   }
 }
